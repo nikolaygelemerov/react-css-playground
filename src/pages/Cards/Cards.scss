@@ -1,0 +1,10 @@
+.Container {
+  display: grid;
+  grid-template-rows: min-content;
+  grid-template-columns: repeat(8, 1fr);
+  gap: var(--offset-l);
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

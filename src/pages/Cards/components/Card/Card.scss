@@ -1,0 +1,34 @@
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+
+  border: var(--border-width) solid var(--color-border);
+}
+
+.CardText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+  color: var(--color-text);
+  font-size: var(--font-large);
+  line-height: 100%;
+
+  background-color: var(--color-bkg-paper);
+}
+
+.Button {
+  width: 100%;
+  height: 100%;
+
+  color: var(--color-text-button);
+  font-size: var(--font-medium);
+
+  background-color: var(--color-bkg-button);
+  border: none;
+  cursor: pointer;
+}
